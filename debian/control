@@ -1,0 +1,17 @@
+Source: sessc-common
+Priority: extra
+Maintainer: Nicholas Ng <nickng@doc.ic.ac.uk>
+Build-Depends: debhelper (>= 8.0.0), mpi-default-dev (>= 1.0.1)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: http://www.doc.ic.ac.uk/~cn06/sessionc
+Vcs-Git: git://github.com/sessionc/sessc-common.git
+
+Package: sessc-common
+Section: libs
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Common files for session types programming
+ Common runtime files for programming with Session Types in C.
+ This contains common files (headers and static library) for implementations of Session C runtime, part of the Session C programming framework.
+ See http://www.doc.ic.ac.uk/~cn06/sessionc for details.
